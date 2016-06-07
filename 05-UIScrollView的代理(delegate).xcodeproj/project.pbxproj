@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		702E262C1D067A2700BAF8D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 702E262B1D067A2700BAF8D2 /* main.m */; };
+		702E262F1D067A2700BAF8D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 702E262E1D067A2700BAF8D2 /* AppDelegate.m */; };
+		702E26321D067A2700BAF8D2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702E26311D067A2700BAF8D2 /* ViewController.m */; };
+		702E26351D067A2700BAF8D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702E26331D067A2700BAF8D2 /* Main.storyboard */; };
+		702E26371D067A2700BAF8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702E26361D067A2700BAF8D2 /* Assets.xcassets */; };
+		702E263A1D067A2700BAF8D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 702E26381D067A2700BAF8D2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		702E26271D067A2700BAF8D2 /* 05-UIScrollView的代理(delegate).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "05-UIScrollView的代理(delegate).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		702E262B1D067A2700BAF8D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		702E262D1D067A2700BAF8D2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		702E262E1D067A2700BAF8D2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		702E26301D067A2700BAF8D2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		702E26311D067A2700BAF8D2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		702E26341D067A2700BAF8D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		702E26361D067A2700BAF8D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		702E26391D067A2700BAF8D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		702E263B1D067A2700BAF8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		702E26241D067A2700BAF8D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		702E261E1D067A2700BAF8D2 = {
+			isa = PBXGroup;
+			children = (
+				702E26291D067A2700BAF8D2 /* 05-UIScrollView的代理(delegate) */,
+				702E26281D067A2700BAF8D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		702E26281D067A2700BAF8D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				702E26271D067A2700BAF8D2 /* 05-UIScrollView的代理(delegate).app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		702E26291D067A2700BAF8D2 /* 05-UIScrollView的代理(delegate) */ = {
+			isa = PBXGroup;
+			children = (
+				702E262D1D067A2700BAF8D2 /* AppDelegate.h */,
+				702E262E1D067A2700BAF8D2 /* AppDelegate.m */,
+				702E26301D067A2700BAF8D2 /* ViewController.h */,
+				702E26311D067A2700BAF8D2 /* ViewController.m */,
+				702E26331D067A2700BAF8D2 /* Main.storyboard */,
+				702E26361D067A2700BAF8D2 /* Assets.xcassets */,
+				702E26381D067A2700BAF8D2 /* LaunchScreen.storyboard */,
+				702E263B1D067A2700BAF8D2 /* Info.plist */,
+				702E262A1D067A2700BAF8D2 /* Supporting Files */,
+			);
+			path = "05-UIScrollView的代理(delegate)";
+			sourceTree = "<group>";
+		};
+		702E262A1D067A2700BAF8D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				702E262B1D067A2700BAF8D2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		702E26261D067A2700BAF8D2 /* 05-UIScrollView的代理(delegate) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 702E263E1D067A2700BAF8D2 /* Build configuration list for PBXNativeTarget "05-UIScrollView的代理(delegate)" */;
+			buildPhases = (
+				702E26231D067A2700BAF8D2 /* Sources */,
+				702E26241D067A2700BAF8D2 /* Frameworks */,
+				702E26251D067A2700BAF8D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "05-UIScrollView的代理(delegate)";
+			productName = "05-UIScrollView的代理(delegate)";
+			productReference = 702E26271D067A2700BAF8D2 /* 05-UIScrollView的代理(delegate).app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		702E261F1D067A2700BAF8D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "小码哥";
+				TargetAttributes = {
+					702E26261D067A2700BAF8D2 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 702E26221D067A2700BAF8D2 /* Build configuration list for PBXProject "05-UIScrollView的代理(delegate)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 702E261E1D067A2700BAF8D2;
+			productRefGroup = 702E26281D067A2700BAF8D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				702E26261D067A2700BAF8D2 /* 05-UIScrollView的代理(delegate) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		702E26251D067A2700BAF8D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702E263A1D067A2700BAF8D2 /* LaunchScreen.storyboard in Resources */,
+				702E26371D067A2700BAF8D2 /* Assets.xcassets in Resources */,
+				702E26351D067A2700BAF8D2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		702E26231D067A2700BAF8D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				702E26321D067A2700BAF8D2 /* ViewController.m in Sources */,
+				702E262F1D067A2700BAF8D2 /* AppDelegate.m in Sources */,
+				702E262C1D067A2700BAF8D2 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		702E26331D067A2700BAF8D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				702E26341D067A2700BAF8D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		702E26381D067A2700BAF8D2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				702E26391D067A2700BAF8D2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		702E263C1D067A2700BAF8D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		702E263D1D067A2700BAF8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		702E263F1D067A2700BAF8D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "05-UIScrollView的代理(delegate)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5-UIScrollView----delegate-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		702E26401D067A2700BAF8D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "05-UIScrollView的代理(delegate)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.520it.-5-UIScrollView----delegate-";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		702E26221D067A2700BAF8D2 /* Build configuration list for PBXProject "05-UIScrollView的代理(delegate)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702E263C1D067A2700BAF8D2 /* Debug */,
+				702E263D1D067A2700BAF8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		702E263E1D067A2700BAF8D2 /* Build configuration list for PBXNativeTarget "05-UIScrollView的代理(delegate)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				702E263F1D067A2700BAF8D2 /* Debug */,
+				702E26401D067A2700BAF8D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 702E261F1D067A2700BAF8D2 /* Project object */;
+}
